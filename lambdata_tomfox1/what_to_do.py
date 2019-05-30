@@ -14,7 +14,7 @@ class Datacleaner:
 
     def __init__(self, df):
         self.df = df
-    def replace_values(self, value=np.nan, new=0)
+    def replace_values(self, value=np.nan, new=0):
         """replace values in a dataframe""" 
         self.df = self.df.replace(value, new)
     def impute_values(self):
